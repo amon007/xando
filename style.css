@@ -1,0 +1,60 @@
+*{
+	padding: 0; margin: 0;
+	border: none; outline: none;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app .canvas{
+	max-width: 500px;
+	min-width: 500px;
+	height: 500px;
+	border: solid 1px black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.app .canvas .box{
+	width: 150px;
+	height: 150px;
+	background: gray;
+	margin: 5px 7px;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.x{
+	font-size: 6rem;
+	color: #F97068;
+	transition: 400ms;
+}
+
+.o{
+	font-size: 6rem;
+	color: #D1D646;
+	transition: 400ms;
+}
+
+.res{
+	display: flex;
+	justify-content: center;
+}
+
+.res p{
+	font-size: 3rem;
+}
+
+.winnerX{
+	background: #F97068 !important;
+}
+
+.winnerO{
+	background: #D1D646 !important;
+}
